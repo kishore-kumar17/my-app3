@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.usereducer{
+  text-align: center;
+  letter-spacing: 0.5cm;
+}
+
+.usecontext{
+ text-align: center;
+
+}
+
+.background{
+  background-image: url(https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 20px;
+   
+}
+.data{
+  
+}
