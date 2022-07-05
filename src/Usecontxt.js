@@ -2,10 +2,11 @@ import React, { createContext, useContext, useState } from 'react'
 
 const dataContext = createContext();
 const Usecontxt = () => {
-  const [data,setdata]=useState('TRICHY')
+  const [data,setdata]=useState({name:'TRICHY',count:'20',name1:"kishore",from:'palakarai'})
+  
   return (
     <dataContext.Provider value={data}>
-      <h1>Welcome to the   "{data}"...</h1>
+      <h1>Welcome to the   {data.name}{data.count}..</h1>
       <Comptwo/>
     </dataContext.Provider>
   )
@@ -51,7 +52,8 @@ const Compsix =()=>{
     <div>
       <h6>component 6</h6>
       <br/>
-      <h1>This is the usecontext method...  {data}....</h1>
+      <h1>This is the usecontext method...  {data.name}, {data.count}....</h1>
+      <h1>i'm {data.name1} and i'm form {data.from}</h1>
     </div>
   )
 }

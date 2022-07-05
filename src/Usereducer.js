@@ -1,10 +1,9 @@
 import React, { useEffect, useReducer, useState } from "react";
-import { Container } from "react-bootstrap";
-const Example = () => {
+const Usereducer = () => {
   const [count, setcount] = useState(0);
   useEffect(() => {
     setTimeout(() => {
-      setcount((count) => count + 1);
+      setcount((count) => count + 5);
     }, 10000);
   });
 
@@ -29,7 +28,7 @@ const Example = () => {
       <hr></hr>
 
       <h1>
-        <b> Total number     {stop}</b>
+        <b> Total number {stop}</b>
       </h1>
 
       <hr></hr>
@@ -47,9 +46,11 @@ const Example = () => {
       <hr></hr>
       {/* using useeffect hooks */}
 
-      <span className="text-success">The number of count is render  :    <b>{count}</b></span>
+      <span className="text-success">
+        The number of count is render : <b>{count}</b>
+      </span>
     </div>
   );
 };
 
-export default Example;
+export default Usereducer;

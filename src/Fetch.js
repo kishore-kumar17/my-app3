@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useReducer } from "react";
 const Fetch = () => {
-  const second = {
+  const second = { 
     loding: true,
     post: {},
     error: "",
@@ -32,14 +32,14 @@ const Fetch = () => {
         dispatch({
           type: "pass",
           error: "",
-          answer: kishore.data,
+          answer: kishore.data
         });
       })
       .catch((error) => {
         dispatch({
           type: "fail",
           error: "",
-          post: {},
+          post: {}
         });
       });
   }, []);

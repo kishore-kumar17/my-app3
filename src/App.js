@@ -12,7 +12,11 @@ import Fetchmap from "./Fetchmap";
 import Usecontxt from "./Usecontxt";
 import Propsdrilling from "./Propsdrilling";
 import Form from "./cred/Crud";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Crud from "./cred/Crud";
+import Read from "./cred/Read";
+import ReactDOM from "react-dom";
+import Homecrud from "./cred/Homecrud";
 function App() {
   return (
     <div>
@@ -26,19 +30,26 @@ function App() {
       {/* <Extwo /> */}
       {/* <Usecontxt /> */}
       {/* <Propsdrilling /> */}
-      <Form />
+
+      {/* THIS WEEK */}
+    
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Homecrud />}></Route>
+          <Route path="/api" element={<Crud />}></Route>
+          <Route path="/form" element={<Read />}></Route>
+          <Route path="/update"></Route>
+          <Route path="/delete"></Route>
+          <Route path="/overall"></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
 
 export default App;
 
-// import ReactDOM from "react-dom";
 // ReactDOM.createPortal
 
-{
-  /* <Portal />, */
-}
-{
-  /* // document.getElementById("rooot") */
-}
+//   <Portal />,
+// document.getElementById("rooot")
