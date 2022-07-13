@@ -5,7 +5,6 @@ const Homecrud = () => {
   return (
     <div>
       <h1>Welcome to this week</h1>
-
       <nav>
         <ul>
           <li>
@@ -15,13 +14,16 @@ const Homecrud = () => {
             <Link to="/api"> Read </Link>
           </li>
           <li>
-            <Link to="/update">DAY 3 </Link>
+            <Link to="/delete">same CRUD</Link>
           </li>
           <li>
-            <Link to="/delete">DAY 4 </Link>
+            <Link to="/Hoc">HOC home</Link>
           </li>
           <li>
-            <Link to="/overall">DAY 5 </Link>
+            <Link to="/context">Home crud using context</Link>
+          </li>
+          <li>
+            <Link to="/view">....view...</Link>
           </li>
         </ul>
       </nav>
