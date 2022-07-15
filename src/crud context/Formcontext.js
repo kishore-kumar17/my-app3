@@ -39,7 +39,7 @@ const Formcontext = () => {
           <Form onSubmit={submitHandeler} className="center">
             <h2 style={{ textAlign: "center", color: "red" }}>
               {" "}
-              MARIAMMAN INDIAN BANK{" "}
+               INDUSIND BANK{" "}
             </h2>
             <br />
             <h2 style={{ textAlign: "center" }}>PLATINUM CARD</h2>

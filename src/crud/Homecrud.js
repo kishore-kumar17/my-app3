@@ -25,6 +25,9 @@ const Homecrud = () => {
           <li>
             <Link to="/view">....view...</Link>
           </li>
+          <li>
+            <Link to="/reduxadd">redux </Link>
+          </li>
         </ul>
       </nav>
     </div>

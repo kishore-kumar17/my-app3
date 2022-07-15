@@ -25,6 +25,8 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 20px;
+  min-height: 2vh;
+  min-width: 20vh;
 }
 .read {
   color: blue;
@@ -52,12 +54,26 @@ code {
   background-color: black;
   color: white;
 }
-/* .backimage{
-  background-image:url("https://t3.ftcdn.net/jpg/03/95/04/64/360_F_395046410_zPvTifXj16lprkYLFSN5Yeweaquzc4CR.jpg;") ;
-  background-size: cover;
-} */
+
 .contextbackimage {
   background-image: url("https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&w=1600");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
+}
+.background-image {
+  background-image: url("https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  align-items: center;  
+}
+.clr{
+  color: white;
+  font-size:20px;
+}
+.top{
+  border: 3px solid yellow;
+  margin: 50px;
+  padding: 30px;
+  border-radius: 40px;
 }
