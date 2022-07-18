@@ -19,14 +19,15 @@ const Homecrud = () => {
           <li>
             <Link to="/Hoc">HOC home</Link>
           </li>
+          <li>THIS WEEK</li>
           <li>
             <Link to="/context">Home crud using context</Link>
           </li>
           <li>
-            <Link to="/view">....view...</Link>
+            <Link to="/view">Edit and Delete </Link>
           </li>
           <li>
-            <Link to="/reduxadd">redux </Link>
+            <Link to="/reduxadd">Redux </Link>
           </li>
         </ul>
       </nav>

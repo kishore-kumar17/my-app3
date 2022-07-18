@@ -24,7 +24,6 @@ import Formcontext from "./crud context/Formcontext";
 import Global from "./crud context/Global";
 import View from "./crud context/View";
 import Updates from "./crud context/Update";
-import Createredux from "./REDUX/Createredux";
 import Add from "./REDUX/redux crud/Add";
 
 function App() {
@@ -52,7 +51,7 @@ function App() {
             <Route path="/Hoc" element={<HocHome />}></Route>
             <Route path="/context" element={<Formcontext />}></Route>
             <Route path="/view" element={<View />}></Route>
-            <Route path="/updatee/:id" element={<Updates  />}></Route>
+            <Route path="/updatee/:id" element={<Updates />}></Route>
             <Route path="/reduxadd" element={<Add />}></Route>
           </Routes>
         </Global>
